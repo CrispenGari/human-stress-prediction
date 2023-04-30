@@ -1,0 +1,7 @@
+
+POST http://localhost:3001/api/v1/predict-stress
+Content-Type: application/json
+
+{
+    "text":"trauma changed the trajectory of my life. but i don't know if i would feel this way about my options if i wasn't anxious and wounded. my ex and i broke up because he never liked to leave the house, even for daytime activities. i wonder sometimes how i am going to feel when i hit middle age. am i going to feel like i do now?"
+}

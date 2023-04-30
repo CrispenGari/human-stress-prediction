@@ -4,7 +4,7 @@ import time
 blueprint = Blueprint("blueprint", __name__)
 
 @blueprint.route('/v1/predict-stress', methods=["POST"])
-def predict_stress():
+def predict():
     start = time.time()
     data = {"success": False, "time": 0}
     if request.method == "POST":
